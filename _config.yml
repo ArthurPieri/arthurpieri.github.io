@@ -2,8 +2,8 @@
 name: 'Arthur Pieri'
 title: 'Coding APie'
 description: 'Coding APie.'
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+logo: 'assets/images/logo_ap.png'
+favicon: 'assets/images/favicon.ico'
 baseurl: ''
 google_analytics: 'G-JJN90DQYGN'
 disqus: ''
@@ -20,7 +20,7 @@ authors:
     email: blog@arthurpieri.com
     web: 'arthur'
     twitter: https://twitter.com/arthurpieri
-    description: 'Just some texts about coding'
+    description: 'Just some texts about coding, agile and data'
 
 # Plugins
 plugins:
