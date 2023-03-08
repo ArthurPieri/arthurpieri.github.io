@@ -1,14 +1,14 @@
 # Site
-name: "Mediumish"
-title: "Mediumish"
-description: "Jekyll template, Medium styled, free for bloggers."
+name: 'Arthur Pieri'
+title: 'Coding APie'
+description: 'Coding APie.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ''
 google_analytics: 'G-JJN90DQYGN'
 disqus: ''
 mailchimp-list: ''
-include: ["_pages"]
+include: ['_pages']
 permalink: /:title/
 
 # Authors
@@ -16,11 +16,11 @@ authors:
   sal:
     name: Arthur
     display_name: AP
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    gravatar: 98bdff15b9ec9dc62f0561e68e669d1c
     email: blog@arthurpieri.com
-    web: 'x'
+    web: 'arthur'
     twitter: https://twitter.com/arthurpieri
-    description: "demo."
+    description: 'Just some texts about coding'
 
 # Plugins
 plugins:
@@ -29,7 +29,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-    
+
 # Archives
 jekyll-archives:
   enabled:
@@ -37,11 +37,11 @@ jekyll-archives:
   layout: archive
   permalinks:
     category: '/category/:name/'
-    
-# Pagination 
+
+# Pagination
 paginate: 6
 paginate_path: /page:num/
-    
+
 # Other
 markdown: kramdown
 
@@ -53,12 +53,11 @@ kramdown:
       line_numbers: true
 
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
-adsense: "disabled"
-adsense-data-ad-client: "ca-pub-3412143450191416"
-adsense-data-ad-slot: "1363087678"
+adsense: 'disabled'
+adsense-data-ad-client: ''
+adsense-data-ad-slot: ''
 
 # Lazy Images ("enabled" or "disabled")
-lazyimages: "disabled"
+lazyimages: 'enabled'
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
-
