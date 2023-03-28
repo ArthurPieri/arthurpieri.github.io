@@ -1,11 +1,12 @@
 ---
-title: "99% economy on Data lake"
+title: "98% economy on Data lake"
 author: "Arthur Pieri"
 tags: 
 - data-engineering
 - data
 images: 
 ---
+#data-engineering 
 ## The beginning
 
 One day I was looking at some of the KPIs from our Data lake, we use a pretty "standard" stack with:
@@ -31,7 +32,7 @@ So we started looking and found one pipeline, where every table, was constructed
 
 ## From top to bottom
 ### The first step
-The first thing we did after that, was to look at the most important and used table on the pipeline, which is one of those [[OTB]]. 
+The first thing we did after that, was to look at the most important and used table on the pipeline, which is one of those [[_OBT]]. 
 After gathering all columns, and finding where those columns came from, we found the second problem:
 - In the urge to follow a "design pattern", we were creating lots of useless tables. Ok, we had schemas that follow a pattern:
 	- Transient

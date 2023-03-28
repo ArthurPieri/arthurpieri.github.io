@@ -25,7 +25,7 @@ Without Goals and objectives, the team cannot self-organize. There is no plannin
 >  
 >  "If you don’t know where you’re going, any road will get you there." Lewis Carroll - Alice in Wonderland
 
-You can learn more about goals by reading [[How to define Goals]].
+You can learn more about goals by reading [[_How to define Goals]].
 
 ## Learning from past Success (and failures)
 

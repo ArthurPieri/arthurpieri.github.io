@@ -9,7 +9,7 @@ tags:
 ---
 #agile #agile-foundations
 
-In the past decade, we've heard more and more about "Agility", "[[Agile]]", "[[Scrum]]" and some other ways we could grow past the Waterfall model.
+In the past decade, we've heard more and more about "Agility", "[[Agile]]", "[[_Scrum]]" and some other ways we could grow past the Waterfall model.
 
 ## What is Agile?
 
