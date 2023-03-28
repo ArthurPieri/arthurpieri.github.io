@@ -8,9 +8,12 @@ enableToc: false
 Here you will find everything from agile project management, passing through dev, DevOps, data, and maybe a little bit about IT Security
 
 - 🐈‍⬛ [Agile](https://pieri.io/tags/agile/)
-- 💻 Coding
+- 💻 [Coding](https://pieri.io/tags/coding)
 - 🗄️ [Data Engineering](https://pieri.io/tags/data-engineering/)
-- 🛡️ IT Sec
+- 🛡️ [IT Sec](https://pieri.io/tags/security)
+- ⚙️ [Productivity](https://pieri.io/tags/productivity)
+- 💼 [Project Management](https://pieri.io/tags/project-management)
+- 🗂️ [SQL](https://pieri.io/tags/sql)
 
 ## Whoami
 

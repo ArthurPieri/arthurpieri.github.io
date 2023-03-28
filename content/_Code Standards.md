@@ -2,7 +2,7 @@
 title: "Code Standards"
 author: "Arthur Pieri"
 tags: 
-- dev
+- coding
 - data-engineering
 ---
-#dev #data-engineering 
+#coding  #data-engineering 
