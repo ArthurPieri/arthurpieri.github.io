@@ -13,7 +13,7 @@ Here you will find everything from agile project management, passing through dev
 - 🛡️ [IT Sec](https://pieri.io/tags/security)
 - ⚙️ [Productivity](https://pieri.io/tags/productivity)
 - 💼 [Project Management](https://pieri.io/tags/project-management)
-- 🗂️ [SQL](https://pieri.io/tags/sql)
+- 🗂️ [SQL](https://pieri.io/tags/SQL)
 
 ## Whoami
 
