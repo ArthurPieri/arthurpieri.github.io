@@ -1,39 +1,39 @@
 ---
 title: "Learning SQL"
 author: "Arthur Pieri"
-tags: 
+Tags: 
 - data-engineering
 - data
 - SQL
 ---
 #data #SQL 
 ## What is SQL?
-Structured Query Language (SQL pronounced S Q L or Sequel) is a language focused in access and manipulate Databases, it became a ANSI standard in 1986 and ISO in 1987. But even though it is a Standard there are multiple versions of it's implementation. But all of them must suport the major commands to be considered ANSI compliant. Commands like:
+Structured Query Language (SQL pronounced S Q L or Sequel) is a language focused in access and manipulating Databases, it became an ANSI standard in 1986 and ISO in 1987. 
+
+But even though it is a Standard each developer/company can implement it in different ways. However, to be considered ANSI Compliant (and be suitable for production use) it must support the major commands:
 - SELECT
 - UPDATE
 - DELETE
 - INSERT
 - WHERE
-and a few others.
-And many SQL databases posses their own proprietary extensions and additions.
+- and a few others.
 
-> SQL commands are case-insensitive meaning you can write them all Uppercase: SELECT, all lowercase: update or make party like:DeLeTE.
+Many SQL databases possess proprietary extensions and additions specific to their implementations and therefore will not be covered here.
 
-> It is however a commom practice to write the function names in uppercase: 
+> SQL commands are case-insensitive meaning you can write them all in Uppercase: SELECT, all lowercase: update or make it a party like DeLeTE.
+
+> It is however a common practice to write the function names in uppercase since it improves the readability of your queries: 
 ```sql
 SELECT customerName FROM table.
 ```
-> Since it improve readability of your queries
+Using SQL you can query for data, preferably structured data, hosted by a Relational DataBase Management System (RDBMS).
 
-A SQL Database usually need a Relational DataBase Management System or RDBMS to be accessed.
+Data in an RDBMS is organized, from more complex to less:
+- [[_SQL Databases]]
+- [[_SQL Schemas]]
+- [[_SQL Tables]]
 
-All RDBMS uses the same principle to store data: A two dimensional table consisted of Data rows in the Horizontal Axis and strictly enforced column types on the Vertical Axis. 
-
-And many tables form a Database.
-
-It can be thought as a set of components:
-
-There are 5 generic components of the SQL language:  
+SQL was first created using concepts from relational algebra and tuple relational calculus. And can be broken down into 5 "sublanguages":
 - [[DDL: data definition language]], such as: 
 	- Operations
 		 - CREATE
@@ -43,7 +43,7 @@ There are 5 generic components of the SQL language:
 		- database
 		- table
 		- constraints
-		- view
+		- View
 		- index
 - [[DQL: data query language]], such as: 
 	- SELECT
@@ -74,12 +74,16 @@ There are also 3 implementation dependant components:
 	- SQL Numeric functions
 	- SQL String functions
 	- SQL Datetime functions
-- [[SQL Data Types]]
+- [[_SQL Data types]]
 	- SQL Numeric type
 	- SQL String type
 	- SQL Datetime type
 	- SQL Boolean type
 	- SQL JSON type
+
+## SQL Queries syntax
+The SQL language can be subdivised in several elements, that may help the learning:
+[[_SQL Syntax_]]
 
 SQL techniques:
 - [[CTE - Common Table Expression]]
