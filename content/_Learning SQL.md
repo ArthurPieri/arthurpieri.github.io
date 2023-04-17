@@ -31,7 +31,7 @@ Using SQL you can query for data, preferably structured data, hosted by a Relati
 Data in an RDBMS is organized, from more complex to less:
 - [[_SQL Databases]]
 - [[_SQL Schemas]]
-- [[_SQL Tables]]
+- [[SQL Tables]]
 
 SQL was first created using concepts from relational algebra and tuple relational calculus. And can be broken down into 5 "sublanguages":
 - [[DDL: data definition language]], such as: 
@@ -48,6 +48,7 @@ SQL was first created using concepts from relational algebra and tuple relationa
 - [[DQL: data query language]], such as: 
 	- SELECT
 	- FROM
+	- JOIN
 	- WHERE
 	- GROUP BY
 	- HAVING
