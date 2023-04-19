@@ -1,5 +1,5 @@
 ---
-title: "98% economy on Data lake"
+title: "98% Economy on Data Lake"
 author: "Arthur Pieri"
 tags: 
 - data-engineering
