@@ -6,7 +6,7 @@ tags:
 ---
 # What are SQL Tables?
 
-All RDBMS uses the same principle to store data: A two-dimensional table consisted of Data rows on the Horizontal Axis and strictly enforced column types on the Vertical Axis. 
+All [[_RDBMS]] uses the same principle to store data: A two-dimensional table consisted of Data rows on the Horizontal Axis and strictly enforced column types on the Vertical Axis. 
 
 The Horizontal axis is known as a [[SQL row]] and the Vertical axis is known as a [[SQL Column]]
 
