@@ -9,23 +9,14 @@ tags:
 ---
 #data-engineering #python #pandas #mongodb 
 # The problem
-I'm currently working for a company that began using MongoDB as its primary database. 
-The problem is that it was supposed to be only for the MVP, but it kept growing and growing and since Mongo doesn't care about typing, we end up with lots of unstructured data, garbage, and even sometimes, a truly macaronic bundle of arrays inside jsons inside arrays the definition of a rat's nest... 
+In the company, I'm currently working for, I was tasked to create a pipeline to bring data from MongoDB to our DataLake. Searching online for some tutorials or help, but found nothing really useful. Every tutorial or article treats MongoDB as somewhat of a SQL database. Everything is well structured, every record possesses the same fields and all is good.
 
---------
--------------
+The problem is that working with a MongoDB that really is used, we found a lot of things that aren't all sunshine and rainbows. Data is somewhat unstructured, there is a lot of garbage in data, and even some truly macaronic architecture that has an array of jsons with arrays, the true definition of a rat's nest.
 
-> Other option
-
-Searching online for some help to bring data from MongoDB into pandas and then sending it to Snowflake, I've encountered one big problem, everyone just assumes your data is perfectly normalized and without changes. It seems more like data coming from a SQL Table than from a semi-structured source.
-
------------
---------
-
-And being responsible to create a Pipeline to take data from Mongo and send it to Snowflake, I've encountered all sorts of problems, and decided to document them, since searching for help online, all I found were examples using the best-case scenario where the data resembled much more a SQL database than a semi-structured kind.
+And that's why I decided to document everything I needed to do when working with real-world data, and a not-so-perfect architecture and database.
 
 ## First things first
-Our data tools were:
+Our data stack is composed by:
 - Airflow
 - Python and its libraries
 - Snowflake
@@ -34,9 +25,9 @@ Our data tools were:
 - MongoDB (of course)
 
 ## The quick and dirty solution
-In order to get the pipeline running as fast as possible, we decided to start by grabbing data from MongoDB using Pymongo, and sending it to S3 as a JSON file. Once there, we would read the files using Snowflake's external file capabilities, and use Plain SQL to send data to tables.
+In order to get the pipeline running as fast as possible, we decided to start by grabbing data from MongoDB using Pymongo, and sending it to AWS S3 as a JSON file. Once there, we would read the files using Snowflake's external file capabilities, and use Plain SQL to load data into tables.
 
-The following code is not complete and is used only for example.
+> The following code is not complete and is used only as an example.
 
 ```python
 import pymongo
@@ -83,7 +74,7 @@ def get_mongo_data(
 
 ```
 
-So the code above gets batches of data from Mongo, dumps it into a JSON, and sends it to an S3 Bucket. From there we can access the data in Snowflake and use some functions to extract the data. Something like:
+So the code above gets batches of data from Mongo, dumps it into a JSON, and sends it to an S3 Bucket. From there we can access the data in Snowflake and use some functions to load the data. Something like:
 
 ```SQL
 CREATE TABLE IF NOT EXISTS database.raw_schema.table AS(
@@ -101,22 +92,19 @@ CREATE TABLE IF NOT EXISTS database.raw_schema.table AS(
 );
 
 ```
-> Note: please do not use CREATE OR REPLACE TABLE see [[98% Economy on Data Lake]]
+> Note: please do not use CREATE OR REPLACE TABLE see [[98% Economy on Data Lake]] for context
 
-> After that, all you need to do is start merging the new data into this table.
+> After that, all you need to do is start merging the new data into this table. Using COPY INTO or MERGE functions on Snowflake.
 
 ### Pros
 - Fast way to get you going
 - You don't need to deal with the data in Python
 ### Cons
 - Double or Triple the cost of storage
-	- Snowflake (external stage and internal stage), S3, and Mongo
+	- Snowflake (external stage and internal stage) and S3.
 - Put the processing cost into Snowflake (which can be expensive if not careful)
-- If anything changes in MongoDB you need to manually change the SQL that creates and updates ir raw table.
+- If anything changes in MongoDB you need to manually change the SQL that creates and updates the raw table.
 
-> If your data is mostly unmutable, and well structured, this can do the trick, but what happens when developers use to the fullest the not typing of data in Mongo?
+> If your data is mostly unmutable, and well structured, this can do the trick, but what happens when developers use to the fullest the not typing of data in Mongo? 
 
 # Making it a little more future proof
-
-
-
