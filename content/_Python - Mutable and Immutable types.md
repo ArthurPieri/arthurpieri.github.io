@@ -4,7 +4,7 @@ author: "Arthur Pieri"
 tags: 
 - python
 ---
-#python
+#python #coding 
 
 ## Python variables and types
 If you have ever programmed in Python, you are probably familiar with variables and data types like:
@@ -80,7 +80,7 @@ One big problem that it may cause is that, they are mutable for all their existe
 x = [1,5,4,2,3]
 
 def sort_list(unordered:list):
-	unordered.sort()
+	unordered.sort()[/Users/arthur.pieri/code/data-etl/dags/mongo/collections/productos.py](file:///Users/arthur.pieri/code/data-etl/dags/mongo/collections/productos.py)
 
 	return unordered
 

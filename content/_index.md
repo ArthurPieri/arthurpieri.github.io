@@ -14,6 +14,7 @@ Here you will find everything from agile project management, passing through dev
 - ⚙️ [Productivity](https://pieri.io/tags/productivity)
 - 💼 [Project Management](https://pieri.io/tags/project-management)
 - 🗂️ [SQL](https://pieri.io/tags/SQL)
+- 🐍 [Python](https://pieri.io/tags/python)
 
 ## Whoami
 
