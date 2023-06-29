@@ -115,7 +115,7 @@ What Python and your OS do is:
 2. Assign the value '3' to that memory address
 3. Return the address and assign it to the variable x
 > [!info]- \* about memory address
-> \* Python is a bit more clever than this, so if you want to save the same object into different variables, it will point to the same memory address, but when you change one of those variables if it is immutable, it will point to a different address
+> \* Python is a bit more clever than this, so if you want to save the same value into different variables, it will point to the same memory address, but when you change one of those variables if it is immutable, it will point to a different address
 
 > - These steps will happen to every single variable. The big difference is that the variable will receive the memory address for an object(the value itself) for immutable types.
 
