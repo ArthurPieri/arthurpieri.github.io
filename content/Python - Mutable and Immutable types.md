@@ -20,7 +20,7 @@ If you have ever programmed in Python, you are probably familiar with variables 
 - dict
 - Etc...
 
-Those are the foundations of any program, but these data types can also be grouped into two different types.
+> Those are the foundations of any program, but these data types can also be grouped into two different types.
 
 ## Mutable vs. Immutable a straightforward explanation
 As the name implies, mutable types are types that can be changed, and immutable types are those that cannot.
@@ -114,14 +114,17 @@ What Python and your OS do is:
 1. Search for a free memory address, something like 0x9c001f *
 2. Assign the value '3' to that memory address
 3. Return the address and assign it to the variable x
-> [!info]- \* about memory address
+4. And python does this every time you assign value to a variable (old or new)
+> [!info]+  \* about memory address
+> 
 > \* Python is a bit more clever than this, so if you want to save the same value into different variables, it will point to the same memory address, but when you change one of those variables if it is immutable, it will point to a different address
 
-> - These steps will happen to every single variable. The big difference is that the variable will receive the memory address for an object(the value itself) for immutable types.
-
+> - The big difference is that the variable will receive the memory address for an object(the value itself) for immutable types.
 > - While for mutable types, it receives just the reference to that memory block. And changes are made to that single object stored in that address and referenced by one or more variables.
 
 > [!attention]
-> Sometimes mutable variables will extrapolate the scope on which they are defined without using the keyword 'Global.'
+> Sometimes mutable variables will extrapolate the scope on which they are defined without using the keyword 'Global.' 
+> Meaning: changes made to a variable inside the scope of a function will reflect on the variable outside said function
+> 
 
 
