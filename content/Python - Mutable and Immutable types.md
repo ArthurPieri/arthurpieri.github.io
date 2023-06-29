@@ -18,14 +18,14 @@ If you have ever programmed in Python, you are probably familiar with variables 
 - str
 - list
 - dict
-- etc...
+- Etc...
 
-Those are the foundations of any program, but these data types can also be grouped into two different types
+Those are the foundations of any program, but these data types can also be grouped into two different types.
 
 ## Mutable vs. Immutable a straightforward explanation
 As the name implies, mutable types are types that can be changed, and immutable types are those that cannot.
 
-However, it is not so simple because we can think that, if I can change the content of a variable, then variables are mutable. Or I know that tuples cannot be changed after they are assigned. Thus, it is immutable. And even tho the latter is immutable; it is not for that reason. 
+However, it is more complex because we can think that if I can change the content of a variable, then variables are mutable. Or I know that tuples cannot be changed after they are assigned. Thus, it is immutable. And even tho the latter is immutable; it is not for that reason. 
 
 ### Immutable types
 Here is a list of data types that are immutable in Python:
@@ -81,7 +81,7 @@ print(y)
 Because both variables reference the same object in memory.
 
 ## Why does it matter?
-One big problem that it may cause is that they are mutable for all their existence, so when you pass a variable as a parameter to a function, every change made inside that function will also reflect back to the variable. 
+One big problem it may cause is that they are mutable for all their existence, so when you pass a variable as a parameter to a function, every change made inside that function will also reflect back to the variable. 
 ```python
 x = [1,5,4,2,3]
 
