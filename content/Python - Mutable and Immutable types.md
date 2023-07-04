@@ -3,8 +3,9 @@ title: "Python - Mutable and Immutable types"
 author: "Arthur Pieri"
 tags: 
 - python
+- data-engineering
 ---
-#python #coding 
+#python #coding #data-engineering
 
 While programming in Python, have you ever found a variable that changed its value seemly out of the blue? 
 Perhaps you found someone else's code that passes a variable to a function but returns nothing, and still, the variable was changed outside that function? 
@@ -136,11 +137,13 @@ What Python and your OS do is:
 
 ## FAQ
 
-> [!info]+ Can a mutable object be a member of an immutable object? 
-Yes, but it can lead to some unexpected behavior. For example, tuples are immutable, but if a tuple contains a list (which is mutable), the list can be modified.
+> [!info]+ Can a mutable object be a member of an immutable object?
+> 
+> Yes, but it can lead to some unexpected behavior. For example, tuples are immutable, but if a tuple contains a list (which is mutable), the list can be modified.
 
 > [!info]+ How can I create a copy of a mutable object? 
-You can use the copy module in Python to create a shallow or deep copy of a mutable object.
+> 
+> You can use the copy module in Python to create a shallow or deep copy of a mutable object.
 
 ## Further Reading
 
