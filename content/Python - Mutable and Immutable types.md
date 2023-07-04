@@ -110,9 +110,7 @@ Understanding mutable and immutable types becomes essential in many real-world a
 
 Similarly, when building web applications with frameworks like Django or Flask, understanding the difference between mutable and immutable types can help you avoid bugs that could occur due to unexpected variable mutation.
 
-## A more detailed explanation
-
-### Variables, memory, and scope
+## Variables, memory, and scope
 When working with variables, we are actually working with memory blocks. And so when I initiate a variable 'x', what happens under the hood is that we get a memory block, save the value there and keep a reference to that block. Something like:
 ```python
 x = 3
@@ -121,18 +119,22 @@ What Python and your OS do is:
 1. Search for a free memory address, something like 0x9c001f *
 2. Assign the value '3' to that memory address
 3. Return the address and assign it to the variable x
-4. And python does this every time you assign value to a variable (old or new)
+4. python does this every time you assign value to a variable (old or new)
+5. So the difference is that it may recieve a pointer to that memory addres or the address itself.
+
 > [!info]+  \* about memory address
 > 
-> \* Python is a bit more clever than this, so if you want to save the same value into different variables, it will point to the same memory address, but when you change one of those variables if it is immutable, it will point to a different address
-
-> - The big difference is that the variable will receive the memory address for an object(the value itself) for immutable types.
+> - Python is a bit more clever than this, so if you want to save the same value into different variables:
+> 	- it will point to the same memory address, 
+> 	- but when you change one of those variables, if it is immutable, it will point to a different address
+> - The variable will receive the memory address for an object(the value itself) for immutable types.
 > - While for mutable types, it receives just the reference to that memory block. And changes are made to that single object stored in that address and referenced by one or more variables.
 
 > [!attention]
 > Sometimes mutable variables will extrapolate the scope on which they are defined without using the keyword 'Global.' 
 > Meaning: changes made to a variable inside the scope of a function will reflect on the variable outside said function
-> 
+
+
 
 
 ## FAQ
