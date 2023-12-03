@@ -22,8 +22,6 @@ O processo de tomada de decisão precisa, em sua entrada, de informações. Info
 
 > Conclusão: após Arquimedes medir a coroa, ele chega a conclusão que a mesma foi feita por uma mistura de ouro e prata, e com isso, o Rei consegue tomar uma decisão sobre o que fazer com o Ourives.”
 
-![](https://miro.medium.com/max/60/1*gdaEmTegbsCumTDdQcoXAQ.jpeg?q=20)
-
 # Medir o que será medido?
 
 A informação é parte crucial da tomada de decisão, porém buscar essa informação envolve outra parte muito importante: Custos.
@@ -46,8 +44,6 @@ Uma forma de pensar nisso é através de medidas simples de espaço, como por ex
 O que os exemplos buscam mostrar é que nem toda medição é relevante, assim como [nem toda medição é trivial de se medir](https://www.youtube.com/watch?v=T-xMCFOwllE). Algumas vezes medir custa mais caro do que o benefício da medição trará para o projeto.
 
 # Valor da informação
-
-![](https://miro.medium.com/max/60/1*Ec3rC-Bn4WYPpL2sCR53Fw.jpeg?q=20)
 
 “Toda informação tem valor! Mesmo informações pouco precisas.”
 
@@ -149,8 +145,6 @@ Importante sempre dar Visibilidade!
 -   Métricas são material para refletir de tempos em tempos!
 
 # Estimativas
-
-![](https://miro.medium.com/max/60/1*mOfFxGkE0FP-eQ30xoYxlQ.jpeg?q=20)
 
 Componentes de uma estimativa:
 
