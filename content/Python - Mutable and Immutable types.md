@@ -47,7 +47,7 @@ x = 3
 y = x
 ```
 
-The variable 'y' receives a copy of the information stored in 'x'. So if I change the value in y, x remains the same.
+The variable 'y' receives a copy of the information stored in 'x.' So, if I change the value in y, x remains the same.
 
 ```python
 x = 3
@@ -85,7 +85,7 @@ print(y)
 Because both variables reference the same object in memory.
 
 ## Why does it matter?
-One big problem it may cause is that they are mutable for all their existence, so when you pass a variable as a parameter to a function, every change made inside that function will also reflect back to the variable. 
+One big problem it may cause is that they are mutable for all their existence, so when you pass a variable as a parameter to a function, every change made inside that function will also reflect to the variable. 
 ```python
 x = [1,5,4,2,3]
 
@@ -109,12 +109,12 @@ But if you want a little more detailed explanation, keep reading.
 
 ## Real-World Applications
 
-Understanding mutable and immutable types becomes essential in many real-world applications. For example, when working with large data sets in data science, understanding immutability can be critical for memory management. If you're using a mutable object when an immutable one would suffice, you could end up using significantly more memory than necessary.
+Understanding mutable and immutable types becomes essential in many real-world applications. For example, when working with large data sets in data science, understanding immutability can be critical for memory management. If you're using a mutable object when an immutable one would suffice, you could use significantly more memory than necessary.
 
 Similarly, when building web applications with frameworks like Django or Flask, understanding the difference between mutable and immutable types can help you avoid bugs that could occur due to unexpected variable mutation.
 
 ## Variables, memory, and scope
-When working with variables, we are actually working with memory blocks. And so when I initiate a variable 'x', what happens under the hood is that we get a memory block, save the value there and keep a reference to that block. Something like:
+When working with variables, we are working with memory blocks. And so when I initiate a variable 'x,' what happens under the hood is that we get a memory block, save the value there, and keep a reference to that block. Something like:
 ```python
 x = 3
 ```
@@ -123,7 +123,7 @@ What Python and your OS do is:
 2. Assign the value '3' to that memory address
 3. Return the address and assign it to the variable x
 4. python does this every time you assign value to a variable (old or new)
-5. So the difference is that it may recieve a pointer to that memory addres or the address itself.
+5. It may receive a pointer to that memory address or the address itself.
 
 > [!info]+  \* about memory address
 > 
@@ -131,14 +131,11 @@ What Python and your OS do is:
 > 	- it will point to the same memory address, 
 > 	- but when you change one of those variables, if it is immutable, it will point to a different address
 > - The variable will receive the memory address for an object(the value itself) for immutable types.
-> - While for mutable types, it receives just the reference to that memory block. And changes are made to that single object stored in that address and referenced by one or more variables.
+> - While for mutable types, it receives just the reference to that memory block. Changes are made to that single object stored in that address and referenced by one or more variables.
 
 > [!attention]
 > Sometimes mutable variables will extrapolate the scope on which they are defined without using the keyword 'Global.' 
 > Meaning: changes made to a variable inside the scope of a function will reflect on the variable outside said function
-
-
-
 
 ## FAQ
 
@@ -157,4 +154,4 @@ If you want to dive deeper into the topic, here are some resources:
 - [Python official documentation: Data Model]([Title](https://docs.python.org/3/reference/datamodel.html))
 - [Article: Python's Mutable vs Immutable Types: What's the Difference?]((https://realpython.com/python-mutable-vs-immutable-types/))
 
-Remember, the more you practice, the more these concepts will become second nature. Keep exploring and happy coding!
+Remember, the more you practice, the more these concepts become second nature. Keep exploring, Changesand happy coding!

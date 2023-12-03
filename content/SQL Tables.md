@@ -12,19 +12,19 @@ keywords:
 ---
 # What are SQL Tables?
 
-All [[_RDBMS]] uses the same principle to store data: A two-dimensional table consisted of Data rows on the Horizontal Axis and strictly enforced column types on the Vertical Axis. 
+All [[_RDBMS]] uses the same principle to store data: A two-dimensional table consists of Data rows on the Horizontal Axis and strictly enforced column types on the Vertical Axis. 
 
-The Horizontal axis is known as a [[SQL row]] and the Vertical axis is known as a [[SQL Column]]
+The Horizontal axis is an SQL row, and the Vertical axis is an [[SQL Column]].
 
-Each row represents a unique record and each column represents a field in that record.
+Each row represents a unique record, and each column represents a field in that record.
 
-For instance, if you want to register all of your spendings we can create a table that contains the:
+For instance, if you want to register all of your spending, we can create a table that contains the following:
 - Name of the Store 
 - Name of the item
 - Cost of the item
 - Description
 
-> All our examples will be focused on the SQLite3 database since it is one of the simplest and easiest to use.
+> All our examples will be focused on the SQLite3 database since it is one of the most straightforward and accessible to use.
 
 ```SQL
 CREATE TABLE IF NOT EXISTS spendings (
@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS spendings (
 )
 ```
 
-> To understand more about column names and column types on SQL check [[_SQL Data types]]
+> To understand more about column names and column types on SQL, check [[_SQL Data types]]
 
 So our table ends up like this:
 | Store | Item | Price | Description |
@@ -64,9 +64,9 @@ That results in the following table:
 | GameX     | PlayStation | 420   | Playstation console |
 | GameX     | FIFA 2023   | 60    | PS game                    |
 
-Not so bad, but we are still missing a few things in that table, how can we search for a single record? Is there anything that can uniquely identify one record? for every single record?
+It's not so bad, but we must include a few things in that table. How can we search for a single record? Is there anything that uniquely identifies one record? for every single record?
 
-At this moment, there isn't, which is why almost every SQL table contains a special column that is used to Uniquely Identify a record called Primary Key or PK. And we can create a column named ID as our Primary Key:
+At this moment, there isn't, so almost every SQL table contains a particular column used to Identify a record called Primary Key or PK Uniquely. And we can create a column named ID as our Primary Key:
 
 ```sql
 ALTER TABLE spendings ADD COLUMN id INTEGER PRIMARY KEY AUTOINCREMENT
@@ -82,5 +82,5 @@ ALTER TABLE spendings ADD COLUMN id INTEGER PRIMARY KEY AUTOINCREMENT
 |  4   | GameX     | PlayStation | 420   | Playstation console |
 |  5   | GameX     | FIFA 2023   | 60    | PS game             |
 
-The PK column can be of any type and can be manually created, or automatically created by the RDBMS. The only constraint is that it needs to be Unique. 
+The PK column can be of any type and can be manually or automatically created by the RDBMS. The only constraint is that it needs to be Unique. 
 
