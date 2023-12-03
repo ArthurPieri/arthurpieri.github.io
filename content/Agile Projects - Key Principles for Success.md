@@ -1,5 +1,5 @@
 ---
-title: Agile premises
+title: Agile Projects - Key Principles for Success
 author: Arthur Pieri
 tags:
   - agile
