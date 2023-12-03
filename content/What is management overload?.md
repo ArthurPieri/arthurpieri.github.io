@@ -1,5 +1,5 @@
 ---
-title: Can I have management overload?
+title: What is management overload?
 author: Arthur Pieri
 tags:
   - agile
