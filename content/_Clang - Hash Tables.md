@@ -1,5 +1,5 @@
 ---
-title: _pointers in C_
+title: _Clang - Hash Tables
 author: Arthur Pieri
 tags:
   - clang
@@ -7,5 +7,3 @@ tags:
   - data-engineering
 ---
 #clang #data-engineering #ComputerScience 
-
-[[_Memory and memory allocation in C]]

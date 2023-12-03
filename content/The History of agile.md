@@ -10,9 +10,6 @@ keywords:
 - agile
 - agile-foundations
 ---
-
-#agile #agile-foundations
-
 ## [The road to](http://agilemanifesto.org/history.html)
 
 In the spring of 2000, a group of Leaders from the Software development and Management community gathered to discuss alternatives to the documentation-driven, heavyweight software development processes.

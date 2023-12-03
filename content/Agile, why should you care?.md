@@ -1,14 +1,16 @@
 ---
-title: "Agile, why should you care?"
-author: "Arthur Pieri"
+title: Agile, why should you care?
+author: Arthur Pieri
 categories:
-- agile
-tags: 
-- agile
-- agile-foundations
+  - agile
+tags:
+  - agile
+  - agile-foundations
+keywords:
+  - agile
+  - agile-foundations
+  - scrum
 ---
-#agile #agile-foundations
-
 In the past decade, we've heard more and more about "Agility", "[[Agile]]", "[[_Scrum]]" and some other ways we could grow past the Waterfall model.
 
 ## What is Agile?

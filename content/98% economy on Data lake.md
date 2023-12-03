@@ -1,12 +1,13 @@
 ---
-title: "98% Economy on Data Lake"
-author: "Arthur Pieri"
-tags: 
-- data-engineering
-- data
-images: 
+title: 98% Economy on Data Lake
+author: Arthur Pieri
+tags:
+  - data-engineering
+  - data
+keywords:
+  - datawarehouse
+  - data engineering
 ---
-#data-engineering 
 ## The beginning
 
 One day I was looking at some of the KPIs from our Data lake, we use a pretty "standard" stack with:

@@ -5,12 +5,12 @@ tags:
 ---
 
 So you've started learning more about programming and data in general, and now you want to learn more about what is happening under the roof.
-Before we can talk about some more "complex" data structures, you need to understand a little bit more about [[_pointers in C_]]
+Before we can talk about some more "complex" data structures, you need to understand a little bit more about [[_Pointers in C_]]
 
 Before we can start talking about data structures
 
 ## Data types 
-Previously, in [[Python - Mutable and Immutable types]], we've talked a bit about data types applied to Python and with a greater degree of abstraction, but now we are looking under the hood and see how it works in C
+Previously, in [[Python - Mutable and Immutable types]], we've talked a bit about data types applied to Python, which are at least one degree of abstraction higher, but now we are looking under the hood and see how it works in C.
 
 ### Basic data types
 The basic data types in C are:
@@ -110,3 +110,6 @@ In this example, `Stack` is the abstract data type. It encapsulates an array wit
 - [[_Clang - trees]]
 - [[_Clang - Graphs]]
 - [[_Clang - Hash Tables]]
+- [[_HyperLogLog]]
+- [[_Bloom filter]]
+- 

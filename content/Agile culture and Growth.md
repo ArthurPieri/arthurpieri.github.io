@@ -1,14 +1,16 @@
 ---
-title: "Agile culture and Growth"
-author: "Arthur Pieri"
+title: Agile culture and Growth
+author: Arthur Pieri
 categories:
-- agile
+  - agile
 tags:
-- agile
-- agile-foundations
+  - agile
+  - agile-foundations
+keywords:
+  - agile
+  - agile-foundations
+  - agile culture
 ---
-#agile #agile-foundations 
-
 # Agile culture and Growth
 
 One of the main benefits of the Agile culture is that it allows us to keep on learning. Keep trying to improve and not be afraid of possible mistakes (knowing that a mistake is a good improvement opportunity

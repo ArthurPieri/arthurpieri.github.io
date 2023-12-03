@@ -1,8 +1,14 @@
 ---
-title: "SQL Tables"
-author: "Arthur Pieri"
-tags: 
-- 
+title: SQL Tables
+author: Arthur Pieri
+tags:
+  - data-engineering
+  - coding
+  - SQL
+keywords:
+  - data engineering
+  - coding
+  - sql
 ---
 # What are SQL Tables?
 

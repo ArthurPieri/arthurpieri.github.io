@@ -1,12 +1,15 @@
 ---
-title: "Python - Mutable and Immutable types"
-author: "Arthur Pieri"
-tags: 
-- python
-- data-engineering
+title: Python - Mutable and Immutable types
+author: Arthur Pieri
+tags:
+  - python
+  - data-engineering
+  - coding
+keywords:
+  - python
+  - coding
+  - data engineering
 ---
-#python #coding #data-engineering
-
 While programming in Python, have you ever found a variable that changed its value seemly out of the blue? 
 Perhaps you found someone else's code that passes a variable to a function but returns nothing, and still, the variable was changed outside that function? 
 Or have you just heard about that concept and want to learn more? 

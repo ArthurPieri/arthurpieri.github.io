@@ -1,14 +1,16 @@
 ---
-title: "Defining Agile"
-author: "Arthur Pieri"
+title: Defining Agile
+author: Arthur Pieri
 categories:
-- agile
-tags: 
-- agile
-- agile-foundations
+  - agile
+tags:
+  - agile
+  - agile-foundations
+keywords:
+  - agile
+  - agile-foundations
+  - agile culture
 ---
-#agile #agile-foundations 
-
 Previously we've talked about [[Agile, why should you care?]]. But how can you care about something you don't understand what is?To solve that problem we are going to create a definition that will be used in my posts from now on.
 
 ## Dictionary definition

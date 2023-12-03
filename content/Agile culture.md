@@ -1,14 +1,16 @@
 ---
-title: "Agile culture"
-author: "Arthur Pieri"
+title: Agile culture
+author: Arthur Pieri
 categories:
-- agile
-tags: 
-- agile
-- agile-foundations
+  - agile
+tags:
+  - agile
+  - agile-foundations
+keywords:
+  - agile
+  - agile-foundations
+  - agile culture
 ---
-#agile #agile-foundations 
-
 # What is organizational culture?
 
 Organizational Culture is a generic term used to describe the shared values within an organization. I suggest you read this article by [Harvard Business Review](https://hbr.org/2013/05/what-is-organizational-culture).

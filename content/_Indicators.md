@@ -1,8 +1,10 @@
 ---
-title: "Indicators"
-author: "Arthur Pieri"
-tags: 
-- 
+title: Indicators
+author: Arthur Pieri
+tags:
+  - agile
+  - agile-foundations
+  - project-management
 ---
 Indicador é um dado quantitativo e geralmente representado por um índice, correspondente ao aspecto ou característica de um determinado objeto mensurável em quantidade, grandeza, intensidade, cumprimento, tempo etc.
 
