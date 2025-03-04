@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/templates/_Using PostgreSQL for everything.md",
+                "file": "content/templates/Email Management System Performance Optimization Project.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_Using PostgreSQL for everything"
+              "title": "Email Management System Performance Optimization Project"
             }
           }
         ]
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/templates/_Using PostgreSQL for everything.md",
+                "file": "content/templates/Email Management System Performance Optimization Project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for _Using PostgreSQL for everything"
+              "title": "Backlinks for Email Management System Performance Optimization Project"
             }
           },
           {
@@ -134,12 +134,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/templates/_Using PostgreSQL for everything.md",
+                "file": "content/templates/Email Management System Performance Optimization Project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from _Using PostgreSQL for everything"
+              "title": "Outgoing links from Email Management System Performance Optimization Project"
             }
           },
           {
@@ -163,13 +163,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/templates/_Using PostgreSQL for everything.md",
+                "file": "content/templates/Email Management System Performance Optimization Project.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of _Using PostgreSQL for everything"
+              "title": "Outline of Email Management System Performance Optimization Project"
             }
           }
         ]
@@ -192,7 +192,7 @@
   "active": "f873a2dc50dabe49",
   "lastOpenFiles": [
     "content/98% economy on Data lake.md",
-    "content/templates/_Using PostgreSQL for everything.md",
+    "content/templates/Email Management System Performance Optimization Project.md",
     "content/Exploring Data Structures in C Programming - A Beginner's Guide.md",
     "content/_Organizational Culture.md",
     "content/_Process management in development.md",
