@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/templates/Email Management System Performance Optimization Project.md",
+                "file": "content/Email Management System Performance Optimization Project.md",
                 "mode": "source",
                 "source": false
               },
@@ -98,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.5,
-    "collapsed": true
+    "width": 206.5
   },
   "right": {
     "id": "276568b05c4b25b4",
@@ -115,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/templates/Email Management System Performance Optimization Project.md",
+                "file": "content/Email Management System Performance Optimization Project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/templates/Email Management System Performance Optimization Project.md",
+                "file": "content/Email Management System Performance Optimization Project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -163,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/templates/Email Management System Performance Optimization Project.md",
+                "file": "content/Email Management System Performance Optimization Project.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -189,10 +188,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f873a2dc50dabe49",
+  "active": "e1410b6b549a381f",
   "lastOpenFiles": [
     "content/98% economy on Data lake.md",
-    "content/templates/Email Management System Performance Optimization Project.md",
+    "content/Email Management System Performance Optimization Project.md",
     "content/Exploring Data Structures in C Programming - A Beginner's Guide.md",
     "content/_Organizational Culture.md",
     "content/_Process management in development.md",
