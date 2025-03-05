@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Email Management System Performance Optimization Project.md",
+                "file": "content/templates/_From 11 Days to 11 hours using Airflow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Email Management System Performance Optimization Project"
+              "title": "_From 11 Days to 11 hours using Airflow"
             }
           }
         ]
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/Email Management System Performance Optimization Project.md",
+                "file": "content/templates/_From 11 Days to 11 hours using Airflow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Email Management System Performance Optimization Project"
+              "title": "Backlinks for _From 11 Days to 11 hours using Airflow"
             }
           },
           {
@@ -133,12 +133,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/Email Management System Performance Optimization Project.md",
+                "file": "content/templates/_From 11 Days to 11 hours using Airflow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Email Management System Performance Optimization Project"
+              "title": "Outgoing links from _From 11 Days to 11 hours using Airflow"
             }
           },
           {
@@ -162,13 +162,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/Email Management System Performance Optimization Project.md",
+                "file": "content/templates/_From 11 Days to 11 hours using Airflow.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Email Management System Performance Optimization Project"
+              "title": "Outline of _From 11 Days to 11 hours using Airflow"
             }
           }
         ]
@@ -188,10 +188,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e1410b6b549a381f",
+  "active": "f873a2dc50dabe49",
   "lastOpenFiles": [
-    "content/98% economy on Data lake.md",
+    "content/Untitled.md",
+    "content/templates/_From 11 Days to 11 hours using Airflow.md",
     "content/Email Management System Performance Optimization Project.md",
+    "content/98% economy on Data lake.md",
     "content/Exploring Data Structures in C Programming - A Beginner's Guide.md",
     "content/_Organizational Culture.md",
     "content/_Process management in development.md",
@@ -214,8 +216,6 @@
     "content/_What's so good about Agile?.md",
     "content/_What are agile methods?.md",
     "content/_What about Github Flow?.md",
-    "content/_Virtual Environments.md",
-    "content/_Version Control.md",
     "Untitled.canvas"
   ]
 }
