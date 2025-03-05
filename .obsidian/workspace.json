@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/templates/_From 11 Days to 11 hours using Airflow.md",
+                "file": "content/_Modern_data_stack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_From 11 Days to 11 hours using Airflow"
+              "title": "_Modern_data_stack"
             }
           }
         ]
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/templates/_From 11 Days to 11 hours using Airflow.md",
+                "file": "content/_Modern_data_stack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for _From 11 Days to 11 hours using Airflow"
+              "title": "Backlinks for _Modern_data_stack"
             }
           },
           {
@@ -133,12 +133,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/templates/_From 11 Days to 11 hours using Airflow.md",
+                "file": "content/_Modern_data_stack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from _From 11 Days to 11 hours using Airflow"
+              "title": "Outgoing links from _Modern_data_stack"
             }
           },
           {
@@ -162,13 +162,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/templates/_From 11 Days to 11 hours using Airflow.md",
+                "file": "content/_Modern_data_stack.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of _From 11 Days to 11 hours using Airflow"
+              "title": "Outline of _Modern_data_stack"
             }
           }
         ]
@@ -188,10 +188,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f873a2dc50dabe49",
+  "active": "e1410b6b549a381f",
   "lastOpenFiles": [
+    "content/_From 11 Days to 11 hours using Airflow.md",
+    "content/_Modern_data_stack.md",
     "content/Untitled.md",
-    "content/templates/_From 11 Days to 11 hours using Airflow.md",
     "content/Email Management System Performance Optimization Project.md",
     "content/98% economy on Data lake.md",
     "content/Exploring Data Structures in C Programming - A Beginner's Guide.md",
@@ -215,7 +216,6 @@
     "content/_When should you use Traditional Management Methods.md",
     "content/_What's so good about Agile?.md",
     "content/_What are agile methods?.md",
-    "content/_What about Github Flow?.md",
     "Untitled.canvas"
   ]
 }
