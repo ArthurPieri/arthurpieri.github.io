@@ -13,32 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/_Modern_data_stack.md",
+                "file": "content/_SICIA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_Modern_data_stack"
+              "title": "_SICIA"
             }
-          }
-        ]
-      },
-      {
-        "id": "d89240ffef0b2b1c",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "b45e4c9417390f67",
+            "id": "9fdf96afdfc4e52a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/98% economy on Data lake.md",
+                "file": "content/_MonKey.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "98% economy on Data lake"
+              "title": "_MonKey"
             }
           }
         ]
@@ -114,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/_Modern_data_stack.md",
+                "file": "content/_SICIA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for _Modern_data_stack"
+              "title": "Backlinks for _SICIA"
             }
           },
           {
@@ -133,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/_Modern_data_stack.md",
+                "file": "content/_SICIA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from _Modern_data_stack"
+              "title": "Outgoing links from _SICIA"
             }
           },
           {
@@ -162,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/_Modern_data_stack.md",
+                "file": "content/_SICIA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of _Modern_data_stack"
+              "title": "Outline of _SICIA"
             }
           }
         ]
@@ -188,10 +182,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e1410b6b549a381f",
+  "active": "f873a2dc50dabe49",
   "lastOpenFiles": [
-    "content/_From 11 Days to 11 hours using Airflow.md",
+    "content/_MonKey.md",
+    "content/_SICIA.md",
+    "content/_Mandril.md",
     "content/_Modern_data_stack.md",
+    "content/_From 11 Days to 11 hours using Airflow.md",
     "content/Untitled.md",
     "content/Email Management System Performance Optimization Project.md",
     "content/98% economy on Data lake.md",
@@ -213,9 +210,6 @@
     "content/_You need to learn SQL right now (Network chuck).md",
     "content/_WSL2 and VSCode.md",
     "content/_Why you should not hire a consulting firm?.md",
-    "content/_When should you use Traditional Management Methods.md",
-    "content/_What's so good about Agile?.md",
-    "content/_What are agile methods?.md",
     "Untitled.canvas"
   ]
 }
